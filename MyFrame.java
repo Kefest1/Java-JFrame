@@ -26,20 +26,13 @@ public class MyFrame extends JFrame implements ActionListener {
         label.setVerticalTextPosition(JLabel.CENTER);
         label.setHorizontalTextPosition(JLabel.CENTER);
 
-        ImageIcon image = new ImageIcon(
-                "C:\\Users\\MASTER\\Desktop\\istockphoto-496603666-170667a.jpg"
-        );
-
-        //label.setIcon(image);
-        label.setHorizontalTextPosition(JLabel.CENTER);
-        label.setVerticalTextPosition(JLabel.TOP);
+    
         label.setForeground(Color.yellow);
-        label.setFont(new Font("Mv Boli", Font.PLAIN, 18));
-        label.setIconTextGap(-40);
         label.setBackground(Color.BLACK);
         label.setOpaque(true);
-        this.add(label);
+        
         label.setBounds(450, 450, 100, 100);
+        this.add(label);
 
         button1 = new JButton();
         button1.setText("^");
